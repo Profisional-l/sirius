@@ -8,7 +8,13 @@ const config: Config = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'space-grotesk': ['Space Grotesk', 'sans-serif'],
+        'space-mono': ['Space Mono', 'monospace'],
+        'ibm-plex-mono': ['IBM Plex Mono', 'monospace'],
+      },
+    },
   },
   plugins: [],
 };
